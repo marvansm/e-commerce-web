@@ -19,12 +19,12 @@ nav {
         }
 
         h1 {
-            color: #000;
+            color: $text-color-black;
             font-size: 34px;
             font-style: normal;
             font-weight: 700;
             line-height: normal;
-            font-family: "Poppins", sans-serif;
+            font-family: $main-font;
         }
     }
 
@@ -35,15 +35,15 @@ nav {
             align-items: center;
 
             li {
-                color: #000;
+                color: $text-color-black;
                 font-size: 16px;
                 font-style: normal;
                 font-weight: 500;
                 line-height: normal;
-                font-family: "Poppins", sans-serif;
+                font-family: $main-font;
                 transition: .2s ease-in-out;
                 &:hover {
-                    color: #B88E2F;
+                    color: $text-color-green;
                     cursor: pointer;
                 }
             }
@@ -63,7 +63,7 @@ nav {
                 font-weight: 600;
                 transition: .2s ease-in-out;
                 &:hover {
-                    color: #B88E2F;
+                    color: $text-color-green;
                     cursor: pointer;
                 }
             }

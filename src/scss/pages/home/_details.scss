@@ -1,6 +1,6 @@
 #details {
-    font-family: "Poppins", sans-serif;
-    margin: 50px 0;
+    font-family: $main-font;
+    margin: 100px 0;
 
     .left {
         display: flex;
@@ -50,9 +50,10 @@
 
     .right {
         margin-left: 40px;
+
         .detail {
             h1 {
-                color: #000;
+                color: $text-color-black;
                 font-size: 42px;
                 font-style: normal;
                 font-weight: 400;
@@ -62,7 +63,7 @@
 
             h2 {
                 margin: 0;
-                color: #9F9F9F;
+                color: $text-color-pink;
                 font-size: 24px;
                 font-style: normal;
                 font-weight: 500;
@@ -70,7 +71,7 @@
             }
 
             p {
-                color: #000;
+                color: $text-color-black;
                 font-size: 13px;
                 font-style: normal;
                 font-weight: 400;
@@ -91,20 +92,20 @@
                     margin: 0;
                     padding: 0;
                     align-items: center;
-                    border-right: 1px solid #9F9F9F;
+                    border-right: 1px solid $text-color-pink;
                     padding-right: 20px;
 
                     li {
                         i {
                             width: 20px;
                             height: 20px;
-                            color: #FFC700;
+                            color: $text-color-gold;
                         }
                     }
                 }
 
                 span {
-                    color: #9F9F9F;
+                    color: $text-color-pink;
                     font-size: 13px;
                     font-style: normal;
                     font-weight: 400;
@@ -115,7 +116,7 @@
 
             .select {
                 h4 {
-                    color: #9F9F9F;
+                    color: $text-color-pink;
                     font-size: 14px;
                     font-style: normal;
                     font-weight: 400;
@@ -132,8 +133,8 @@
                         transition: .2s ease-in-out;
 
                         &:hover {
-                            background-color: #B88E2F;
-                            color: white;
+                            background-color: $text-color-green;
+                            color: $text-color-white;
                         }
                     }
                 }
@@ -142,7 +143,7 @@
                     margin-top: 18px;
 
                     h5 {
-                        color: #9F9F9F;
+                        color: $text-color-pink;
                         font-size: 14px;
                         font-style: normal;
                         font-weight: 400;
@@ -161,15 +162,15 @@
                         }
 
                         .blue {
-                            background: #816DFA;
+                            background: $bg-color-blue;
                         }
 
                         .black {
-                            background: #000;
+                            background: $bg-color-black;
                         }
 
                         .red {
-                            background-color: #B88E2F;
+                            background-color: $text-color-green;
                         }
                     }
                 }
@@ -187,15 +188,15 @@
                     height: 64px;
                     flex-shrink: 0;
                     border-radius: 10px;
-                    border: 1px solid #9F9F9F;
-                    background: #FFF;
+                    border: 1px solid $text-color-pink;
+                    background: $text-color-white;
                     align-items: center;
                     justify-content: space-between;
                     padding: 8px;
 
                     li {
                         i {
-                            color: #000;
+                            color: $text-color-black;
                             font-size: 16px;
                             font-style: normal;
                             font-weight: 400;
@@ -204,7 +205,7 @@
                     }
 
                     .mid {
-                        color: #000;
+                        color: $text-color-black;
                         font-size: 16px;
                         font-style: normal;
                         font-weight: 500;
@@ -220,24 +221,26 @@
                     width: 215px;
                     height: 64px;
                     border-radius: 15px;
-                    border: 1px solid #000;
-                    color: #000;
+                    border: 1px solid $text-color-black;
+                    color: $text-color-black;
                     font-size: 20px;
                     font-style: normal;
                     font-weight: 400;
                     line-height: normal;
                     background-color: transparent;
                     transition: .3s ease-in-out;
+
                     &:hover {
-                        background-color: black;
-                        color: white;
+                        background-color: $bg-color-black;
+                        color: $text-color-white;
+
                         i {
-                            color: white;
+                            color: $text-color-white;
                         }
                     }
 
                     i {
-                        color: #000;
+                        color: $text-color-black;
                         font-size: 23px;
                         font-style: normal;
                         font-weight: 400;
@@ -255,7 +258,7 @@
 
                 .desc {
                     h5 {
-                        color: #9F9F9F;
+                        color: $text-color-pink;
                         font-size: 16px;
                         font-style: normal;
                         font-weight: 400;
@@ -266,17 +269,17 @@
 
                 .right {
                     h5 {
-                        color: #9F9F9F;
+                        color: $text-color-pink;
                         font-size: 16px;
                         font-style: normal;
                         font-weight: 400;
                         line-height: normal;
 
                         i {
-                        
+
                             width: 25px;
                             height: 25px;
-                            color: black;
+                            color: $text-color-black;
                         }
                     }
 
